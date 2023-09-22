@@ -113,9 +113,9 @@ Input: the same structure as ``estproc_ori_d_mul``.
 
 Output: the same structure as ``estproc_ori_d_mul``.
 
-# File Description
+# File descriptions
 
-All the files are standlone codes that can run without relying the functions in other files. To achieve this, there are several overlapping functions in all the files.
+All the files are standalone and can run without relying on the functions in other files. To achieve this, there are several overlapping functions in the files.
 
 | File names                  | Description                                                   |
 |-----------------------------|---------------------------------------------------------------|
