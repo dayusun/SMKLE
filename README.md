@@ -9,7 +9,7 @@ The manuscript proposed the **S**ieve **M**aximum **K**ernel-weighed **L**og-lik
 # Main function descriptions
 
 ## simAsytransdata
-Generate censored data under the transformed hazards model (Box-Cox) with sparse longitudinal covariates.
+Generate censored data under the transformed hazards model (Box-Cox) with sparse longitudinal covariates for one subject.
 
 Input:
 
@@ -32,7 +32,7 @@ Output: Simulated data as a tibble class.
     obs_times: observation times for covariates
     censoring: censoring time
 
-It is in the [tidy data format](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) that each row represents the observed covariates at one observation time point. The following is an example:
+It is in the [tidy data format](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) that each row represents the observed covariates at one observation time point. The following is an example data generated for one subject:
 
           X delta covariates[,1]  [,2] obs_times censoring
       <dbl> <lgl>          <dbl> <dbl>     <dbl>     <dbl>
